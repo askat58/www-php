@@ -9,13 +9,9 @@
 </head>
 <body>
   <?php
-  $phrase = "To be or not to be";
-  $age = 80;
-  $gpa = 32.987;
-  $isMale = true;
+  $phrase = "Giraffe Academy<br>";
   
-  echo $phrase;
-  
+  echo substr($phrase, 8, 3);
   ?>
 </body>
 </html>
