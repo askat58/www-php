@@ -9,9 +9,15 @@
 </head>
 <body>
   <?php
-  $phrase = "Giraffe Academy<br>";
   
-  echo substr($phrase, 8, 3);
+  echo abs(-100);
+  echo pow(2, 4);
+  echo sqrt(144);
+  echo max(2, 10);
+  echo min(2, 10);
+  echo round(3.7);
+  echo ceil(3.3);
+  echo floor(3.9);
   ?>
 </body>
 </html>
