@@ -8,16 +8,15 @@
   <title>Document</title>
 </head>
 <body>
-  <?php
-  
-  echo abs(-100);
-  echo pow(2, 4);
-  echo sqrt(144);
-  echo max(2, 10);
-  echo min(2, 10);
-  echo round(3.7);
-  echo ceil(3.3);
-  echo floor(3.9);
-  ?>
+<form action="site.php" method="get">
+ <label for="num1">Liczba 1: </label><input type="number" name="num1">
+  <br>
+  <label for="num2">Liczba 2: </label><input type="number" name="num2">
+  <br>
+  <input type="submit"ś>
+</form>
+
+
+ Answer: <?php echo $_GET["num1"] + $_GET["num2"]?>
 </body>
 </html>
