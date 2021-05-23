@@ -8,16 +8,13 @@
   <title>Document</title>
 </head>
 <body>
-  <?php
+  <?php?>
   
-  echo abs(-100);
-  echo pow(2, 4);
-  echo sqrt(144);
-  echo max(2, 10);
-  echo min(2, 10);
-  echo round(3.7);
-  echo ceil(3.3);
-  echo floor(3.9);
-  ?>
+    <form action="site.php" method="get">
+      <label for="name">Name:</label> <input type="text" name="name">
+      <input type="submit">
+    </form>
+
+  
 </body>
 </html>
