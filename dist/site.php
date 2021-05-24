@@ -8,15 +8,22 @@
   <title>Document</title>
 </head>
 <body>
-<form action="site.php" method="get">
- <label for="num1">Liczba 1: </label><input type="number" name="num1">
-  <br>
-  <label for="num2">Liczba 2: </label><input type="number" name="num2">
-  <br>
-  <input type="submit">
-</form>
 
+  <form action="site.php">
+    Color: <input type="text" name="color"> <br>
+    Plural Noun: <input type="text" name="pluralNoun"> <br>
+    Celebrity: <input type="text" name="celebrity"> <br>
+    <input type="submit">
+  </form>
 
- Answer: <?php echo $_GET["num1"] + $_GET["num2"]?>
+  <?php
+  /*http://localhost:4000/Desktop/Projects/www-php/dist/site.php*/
+  $color = $_GET["color"];
+  $pluralNoun = $_GET["pluralNoun"];
+  $celebrity = $_GET["celebrity"];
+  echo "Roses are $color <br>";
+  echo "$pluralNoun are blue <br>";
+  echo "I love $celebrity";
+  ?>
 </body>
 </html>
