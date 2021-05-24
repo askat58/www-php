@@ -13,7 +13,7 @@
   <br>
   <label for="num2">Liczba 2: </label><input type="number" name="num2">
   <br>
-  <input type="submit"ś>
+  <input type="submit">
 </form>
 
 
